@@ -1,0 +1,57 @@
+
+/* Login Css */
+.login-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.login-form{
+    background-color: white;
+    padding: 10px 80px 160px 80px;
+    border-radius: 15px;
+    color: #72849a;
+    display: inline-block;
+    
+}
+.login-button{
+    margin-top: 20px;
+}
+
+.social-logins{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#button{
+    background-color: white;
+    border-radius: 5px;
+    border-color: gray;
+    
+
+}
+
+.login-google-button{
+    color: orangered;
+    font-size: medium;
+}
+.login-facebook-button{
+    color: #007FFF;
+    font-size: medium;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
